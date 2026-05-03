@@ -86,7 +86,7 @@ def list_files()-> List[str]:
     返回:
         文件名列表
     """
-    return os.listdir()
+    return os.listdir('.')
 
 def read_file(file_name: str)-> str:
     """
