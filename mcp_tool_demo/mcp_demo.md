@@ -658,3 +658,5 @@ python client/mcp_client.py
 | AsyncExitStack | 自动清理资源的"垃圾回收站" |
 
 这套代码的核心流程就是：**Server 用 `@mcp.tool()` 装饰器暴露工具 → Client 启动 Server 子进程 → 通过 stdio 通信 → Client 获取工具列表 → 用户选择工具调用 → Server 执行并返回结果。**
+
+![alt text](image.png)
